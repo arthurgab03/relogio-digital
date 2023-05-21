@@ -44,7 +44,22 @@ body {
     font-size: 2rem;
 }
 
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .relogio div {
+        width: 88px;
+
+    }
+
+    .relogio span.tempo {
+        font-size: 5rem;
+    }
+
+    .relogio span.legenda {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
     .relogio div {
         width: 120px;
 
