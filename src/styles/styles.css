@@ -6,11 +6,11 @@ body {
     display: flex;
     height: 100vh;
     justify-content: center;
-   
+
 }
 
 .relogio {
-     align-items: center;
+    align-items: center;
     display: flex;
     justify-content: space-around;
     height: 200px;
@@ -42,4 +42,19 @@ body {
 
 .relogio span.legenda {
     font-size: 2rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .relogio div {
+        width: 120px;
+
+    }
+
+    .relogio span.tempo {
+        font-size: 5rem;
+    }
+
+    .relogio span.legenda {
+        font-size: 1.7rem;
+    }
 }
