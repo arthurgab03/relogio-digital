@@ -1,8 +1,7 @@
 const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
-const audio = document.querySelector('audio');
-audio.play();
+
 
 
 
